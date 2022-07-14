@@ -1,3 +1,4 @@
-export const messages ={
-    1 : 'Hello World!'
-}
+export const messages = [
+    "Hello World!",
+    "Another Message"
+]
