@@ -1,3 +1,6 @@
 import { messages } from "./messages.js";
 
-console.log(messages.create())
+for(let i = 0; i < 5; i++){
+    console.log(messages.create())
+}
+
