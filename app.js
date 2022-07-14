@@ -1,4 +1,7 @@
 import { messages } from "./messages.js";
 
+const rIndex = () => {
+    return Math.floor(Math.random() * messages.length)
+}
 
-console.log(messages[1])
+console.log(messages[rIndex()])
